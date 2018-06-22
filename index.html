@@ -1,1 +1,157 @@
-hello world
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Image Gallery</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<style type="text/css">
+		body{
+			padding-top:70px;
+		}
+
+		.jumbotron{
+			color:white;
+			background-color: #FECFBF;
+		}
+
+		.navbar-inverse{
+			background-color:#7F7F7F;
+			border: 1px solid #7F7F7F;
+		}
+
+		.navbar-inverse .navbar-nav>li>a{
+			color:white;
+		}
+
+		.navbar-inverse .navbar-brand{
+			color:white;
+		}
+
+
+		.flex {
+		  display: flex;
+		  flex-wrap: wrap;
+		}
+
+	</style>
+
+</head>
+
+<body>
+<!-- navbar stuff -->
+	<nav class = "navbar navbar-inverse navbar-fixed-top">
+			<div class = "container">
+				<div class ="navbar-header">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<!-- spans make the icon bars -->
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span> 
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+
+						<a href=# class = "navbar-brand"> <i class="fa fa-camera-retro" aria-hidden="true"></i> PICS</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class = "nav navbar-nav">
+						<li> <a href="#"> About</a></li>
+						<li><a href="#"> Contact</a></li>
+					</div>
+
+					<ul class = "nav navbar-nav navbar-right">
+						<li><a href="#"> Sign Up</a></li>
+						<li><a href="#"> Log In</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</nav>
+
+<!-- Jumbotron -->
+	<div class= "container">
+		<div class = "jumbotron">
+			<h1><i class="fa fa-cutlery" aria-hidden="true"></i> Food and Peeps</h1>
+			<p> Look at this stuff. Isn't it neat? Sitting 'cross friends is a great place to eat!</p>
+		</div>
+		<!-- Grids 3 2 1 -->
+		<div class = "row flex">
+						
+			<div class = "col-lg-4 col-sm-6"> 
+				<div class = "thumbnail"> 
+					<img src="http://68.media.tumblr.com/50f43b175d06113d1d4bb2ca6a06de0e/tumblr_orpyupCzLH1tkcf0xo5_1280.jpg">
+				</div>
+			</div>	
+
+
+			<div class = "col-lg-4 col-sm-6"> 
+				<div class = "thumbnail"> 
+					<img src="http://68.media.tumblr.com/1048ff68bb1cfd26b8e28cf686596597/tumblr_oo3o0uqWwQ1tkcf0xo1_1280.jpg">
+				</div>
+			</div>
+
+
+			<div class = "col-lg-4 col-sm-6"> 
+				<div class = "thumbnail"> 
+					<img src="http://68.media.tumblr.com/9487dfd74ce7f1248317eb9085782875/tumblr_ojuj1tvRjl1tkcf0xo1_1280.jpg">
+				</div>
+
+ 
+			</div>	<div class = "col-lg-4 col-sm-6"> 
+				<div class = "thumbnail"> 
+					<img src="http://68.media.tumblr.com/dd1e99d42877b4df0f0a9926e6c3d19f/tumblr_oq6qsclRL41tkcf0xo1_540.jpg">
+				</div>
+			</div>
+
+				<div class = "col-lg-4 col-sm-6"> 
+					<div class = "thumbnail"> 
+						<img src="http://68.media.tumblr.com/f65e996f2d53771cbeeb55a952b3de9f/tumblr_op4i2gDzA81tkcf0xo1_1280.jpg">
+					</div>
+				</div>
+
+				<div class = "col-lg-4 col-sm-6"> 
+					<div class = "thumbnail"> 
+						<img src="http://68.media.tumblr.com/cc4e7604ec81766228eae4975dbd7584/tumblr_omj0o5enxR1tkcf0xo1_1280.jpg">
+					</div>
+				</div>
+
+				<div class = "col-lg-4 col-sm-6"> 
+					<div class = "thumbnail"> 
+						<img src="http://68.media.tumblr.com/bfd5d53f7610f4e79a599c87da7b253a/tumblr_oowwvz6sre1tkcf0xo1_1280.jpg">
+					</div>
+				</div>
+
+				<div class = "col-lg-4 col-sm-6"> 
+					<div class = "thumbnail"> 
+						<img src="http://68.media.tumblr.com/ef2ed1c5a5b2e043ed179d0cf447fc43/tumblr_oopt6gadfb1tkcf0xo7_1280.jpg">
+					</div>
+				</div>
+
+				<div class = "col-lg-4 col-sm-6"> 
+					<div class = "thumbnail"> 
+						<img src="http://68.media.tumblr.com/c49d9c785b7216fb642ee5b8d5ab5090/tumblr_onk6pvdxz71tkcf0xo2_1280.jpg">
+					</div>
+				</div>
+
+		</div>
+
+	
+
+	</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
